@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Orentis Insights — plain-language commentary on South African law, regulation, and commercial practice." />
+  <title>Insights — Orentis (Pty) Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Orentis home">
+        <img src="assets/images/orentis-logo.png" alt="Orentis (Pty) Ltd" />
+      </a>
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="insights.html">Insights</a>
+        <a href="case-updates.html">Case Updates</a>
+        <a href="contact.html" class="btn-nav">Contact Us</a>
+      </div>
+      <button class="nav__burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="insights.html">Insights</a>
+    <a href="case-updates.html">Case Updates</a>
+    <a href="contact.html" class="btn-nav-mobile">Contact Us</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero-page" aria-labelledby="insights-hero-title">
+      <div class="container">
+        <div class="hero-page__inner">
+          <p class="eyebrow hero-page__eyebrow animate">Insights</p>
+          <h1 class="hero-page__title animate animate-delay-1" id="insights-hero-title">
+            The law, made<br /><em>legible.</em>
+          </h1>
+          <p class="hero-page__sub animate animate-delay-2">
+            Commentary, analysis, and plain-language guides on South African law, regulation, and commercial practice — written for the people who have to act on it.
+          </p>
+          <div class="hero-page__line animate animate-delay-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILTER + GRID -->
+    <section class="section" style="padding-top: var(--space-md);" aria-labelledby="insights-grid-heading">
+      <div class="container">
+
+        <div class="filter-bar animate">
+          <div class="filter-bar__inner" role="group" aria-label="Filter articles by category">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="corporate">Corporate</button>
+            <button class="filter-btn" data-filter="banking">Banking &amp; Finance</button>
+            <button class="filter-btn" data-filter="legislative">Legislative Update</button>
+          </div>
+        </div>
+
+        <h2 class="sr-only" id="insights-grid-heading">Articles</h2>
+
+        <div class="insights-grid" aria-live="polite">
+
+          <!-- Article 1: Companies Amendment Acts -->
+          <article class="article-card animate" data-category="legislative">
+            <span class="article-card__tag">Legislative Update</span>
+            <time class="article-card__date" datetime="2026-04-12">12 April 2026</time>
+            <h3 class="article-card__title">The Companies Amendment Acts: What Directors Need to Understand Now</h3>
+            <p class="article-card__excerpt">The 2024 Companies Amendment Acts introduced substantive changes to
+            directors' liability, social and ethics committee obligations, and the regulation of
+            remuneration policies. Boards that have not yet conducted a gap analysis against the
+            new requirements are exposed. Here is what you cannot afford to miss.</p>
+            <a href="contact.html" class="link-arrow">Read Article</a>
+          </article>
+
+          <!-- Article 2: Exchange Control -->
+          <article class="article-card animate animate-delay-1" data-category="banking">
+            <span class="article-card__tag">Banking &amp; Finance</span>
+            <time class="article-card__date" datetime="2026-03-28">28 March 2026</time>
+            <h3 class="article-card__title">Exchange Control Decoded: A Plain-Language Guide for Treasury Teams</h3>
+            <p class="article-card__excerpt">The Currency and Exchanges Act and its regulations remain among the most
+            technically demanding frameworks in South African financial law. This guide unpacks
+            the core concepts — approved dealers, loop structures, capital allowances, and the
+            role of the SARB — for treasury and finance professionals who need to act on them
+            without a law degree.</p>
+            <a href="contact.html" class="link-arrow">Read Article</a>
+          </article>
+
+          <!-- Article 3: Private Equity -->
+          <article class="article-card animate animate-delay-2" data-category="corporate">
+            <span class="article-card__tag">Corporate</span>
+            <time class="article-card__date" datetime="2026-03-05">5 March 2026</time>
+            <h3 class="article-card__title">Private Equity in South Africa: The Regulatory Landscape in 2026</h3>
+            <p class="article-card__excerpt">From FAIS obligations and collective investment scheme licencing to the
+            evolving FSCA framework for private markets, PE practitioners in South Africa navigate
+            a layered and shifting regulatory environment. We map the current terrain and flag
+            what is changing in the year ahead.</p>
+            <a href="contact.html" class="link-arrow">Read Article</a>
+          </article>
+
+          <!-- Article 4: Fund Structuring -->
+          <article class="article-card animate" data-category="banking">
+            <span class="article-card__tag">Banking &amp; Finance</span>
+            <time class="article-card__date" datetime="2026-02-18">18 February 2026</time>
+            <h3 class="article-card__title">Fund Structuring in South Africa: EN Structures, SPVs, and the Tax Considerations That Matter</h3>
+            <p class="article-card__excerpt">The choice of fund structure in a South African private capital transaction has
+            significant tax, regulatory, and investor-relations implications. This note provides a
+            plain-language overview of the primary structures — en commandite partnerships, trusts,
+            and company-based SPVs — and the key considerations that drive the selection process.</p>
+            <a href="contact.html" class="link-arrow">Read Article</a>
+          </article>
+
+          <!-- Article 5: Budget Speech -->
+          <article class="article-card animate animate-delay-1" data-category="legislative">
+            <span class="article-card__tag">Legislative Update</span>
+            <time class="article-card__date" datetime="2026-02-19">19 February 2026</time>
+            <h3 class="article-card__title">The 2026 Budget Speech: What It Means for Business and Finance</h3>
+            <p class="article-card__excerpt">The 2026 Budget Speech delivered a set of targeted fiscal measures against
+            a backdrop of constrained revenue and ongoing structural reform. For corporate and
+            financial sector clients, the adjustments to dividend withholding tax, capital gains
+            treatment, and the proposed changes to the two-pot system carry direct operational
+            relevance. We break it down clearly.</p>
+            <a href="contact.html" class="link-arrow">Read Article</a>
+          </article>
+
+          <!-- Article 6: Coming Soon -->
+          <article class="article-card article-card--coming animate animate-delay-2" data-category="all">
+            <div class="article-card--coming-inner">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin: 0 auto 0.75rem; display:block;">
+                <circle cx="16" cy="16" r="15" stroke="#E87722" stroke-width="1.5" stroke-dasharray="4 3"/>
+                <path d="M16 10v6l4 2" stroke="#E87722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <p class="eyebrow" style="justify-content:center; display:flex;">Coming Soon</p>
+              <p>More insights are in preparation. Sign up or get in touch to be notified when new articles are published.</p>
+              <a href="contact.html" class="btn btn--outline-dark btn--sm" style="margin-top:1.2rem; display:inline-flex;">Notify me</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo">
+            <img src="assets/images/orentis-logo.png" alt="Orentis" />
+          </div>
+          <p class="footer__desc">Plain-language legal and commercial communication for South African corporates and financial institutions.</p>
+        </div>
+        <div>
+          <p class="footer__col-title">Navigate</p>
+          <nav class="footer__nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="insights.html">Insights</a>
+            <a href="case-updates.html">Case Updates</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <p class="footer__col-title">Contact</p>
+          <p class="footer__contact-detail"><a href="mailto:hello@orentis.co.za">hello@orentis.co.za</a></p>
+          <p class="footer__contact-detail">Johannesburg, South Africa</p>
+          <p class="footer__contact-detail">Response within one business day</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Orentis (Pty) Ltd. All rights reserved. Registered in South Africa.</p>
+        <p class="footer__tagline">Clarity from the law.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
